@@ -41,7 +41,7 @@ alert("mul: " + typeof(calculator.mul())); // mul: number
     this.a = Number(prompt("첫 번째 값", 0));
     this.b = Number(prompt("두 번째 값", 0));
 
-방법2) +prompt 사용
+방법2) +prompt() 사용
     this.a = +prompt("첫 번째 값", 0);
     this.b = +prompt("두 번째 값", 0);
 */
